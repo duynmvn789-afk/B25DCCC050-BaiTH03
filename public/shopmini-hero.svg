@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F1E9"/>
+      <stop offset=".58" stop-color="#E8E6DE"/>
+      <stop offset="1" stop-color="#D9DFDA"/>
+    </linearGradient>
+    <linearGradient id="window" x1="1290" y1="150" x2="1640" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDE9E7"/>
+      <stop offset="1" stop-color="#AFC2BE"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="1250" y1="760" x2="1650" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5C9B6"/>
+      <stop offset="1" stop-color="#BDAE9B"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="1060" y1="690" x2="1740" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EDE3"/>
+      <stop offset=".5" stop-color="#DDD6CA"/>
+      <stop offset="1" stop-color="#C8BFAF"/>
+    </linearGradient>
+    <linearGradient id="ceramic" x1="1370" y1="380" x2="1510" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667C7B"/>
+      <stop offset=".45" stop-color="#344F55"/>
+      <stop offset="1" stop-color="#263D46"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="1050" y1="500" x2="1210" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7C6A7"/>
+      <stop offset="1" stop-color="#B49F7D"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="1582" y1="565" x2="1665" y2="715" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6D4B5"/>
+      <stop offset=".48" stop-color="#B88354"/>
+      <stop offset="1" stop-color="#8D6249"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="900" y="350" width="930" height="650" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <clipPath id="window-clip">
+      <path d="M1195 706V365C1195 204 1326 96 1495 96S1795 204 1795 365V706H1195Z"/>
+    </clipPath>
+  </defs>
+  <path fill="url(#wall)" d="M0 0H1920V1080H0z"/>
+  <path fill="#E9E5DC" d="M0 732H1920V1080H0z"/>
+  <path fill="url(#floor)" d="M900 760H1920V1080H900z"/>
+  <path stroke="#B8AA96" stroke-opacity=".35" d="M920 785H1920M930 924H1920"/>
+
+  <path fill="#C5C6BB" fill-opacity=".4" d="M1169 708V357C1169 184 1313 75 1495 75S1821 184 1821 357V708H1169Z"/>
+  <path fill="url(#window)" d="M1195 706V365C1195 204 1326 96 1495 96S1795 204 1795 365V706H1195Z"/>
+  <g clip-path="url(#window-clip)">
+    <path fill="#D9E5DF" d="M1195 390C1328 347 1400 402 1512 371s180-22 283 15v320h-600V390Z"/>
+    <path fill="#B5C4B5" d="M1195 517c125-77 205-7 327-33s177-75 273-26v248h-600V517Z"/>
+    <path fill="#99A995" fill-opacity=".8" d="M1195 611c132-64 226-17 332-44s176-40 268-3v142h-600V611Z"/>
+    <path stroke="#F6F1E8" stroke-opacity=".52" stroke-width="13" d="M1495 80v650M1178 446h630"/>
+    <path stroke="#F6F1E8" stroke-opacity=".35" stroke-width="6" d="M1330 105v620M1660 105v620"/>
+    <path fill="#F6F0E3" fill-opacity=".34" d="M1210 104h235v615h-235z"/>
+  </g>
+  <path stroke="#B7B4A9" stroke-opacity=".5" stroke-width="10" d="M1195 706V365C1195 204 1326 96 1495 96s300 108 300 269v341"/>
+
+  <path fill="#AEB6A9" fill-opacity=".28" d="M1730 170c-67 52-103 119-119 198 61-33 107-78 133-143 24 68 59 123 109 160-9-99-47-171-123-215Z"/>
+  <ellipse cx="1457" cy="834" fill="#55615B" fill-opacity=".2" filter="url(#soft-shadow)" rx="405" ry="76"/>
+  <path fill="url(#stone)" d="M1000 718h718l-42 206h-634l-42-206Z"/>
+  <path fill="#F5F0E6" d="M1000 718h718l-21 35h-676l-21-35Z"/>
+  <path stroke="#B6AA99" stroke-opacity=".46" d="M1042 783h634M1050 876h616"/>
+
+  <path fill="url(#bag)" d="M1053 552c0-15 12-27 27-27h106c15 0 27 12 27 27v158h-160V552Z"/>
+  <path stroke="#967E5E" stroke-width="10" d="M1088 536v-20c0-34 18-56 46-56s46 22 46 56v20"/>
+  <path fill="#526A67" fill-opacity=".82" d="M1103 594h58v79h-58z"/>
+  <path stroke="#EFE3CF" stroke-opacity=".7" stroke-width="4" d="M1113 608h38M1113 622h38M1113 636h38"/>
+  <path stroke="#8E7B60" stroke-opacity=".55" stroke-width="2" d="M1065 563h136"/>
+
+  <path fill="url(#ceramic)" d="M1377 677c-19-24-25-57-19-91 7-41 28-66 37-99 6-21 6-51 5-78h58c-1 27-1 57 5 78 9 33 30 58 37 99 6 34 0 67-19 91-23 27-81 27-104 0Z"/>
+  <path fill="#203841" d="M1398 408c-13-5-17-13-14-23 3-8 13-11 24-11h43c11 0 21 3 24 11 3 10-1 18-14 23h-63Z"/>
+  <path stroke="#A3B4A9" stroke-opacity=".4" stroke-width="7" d="M1390 493c-13 30-22 69-17 110"/>
+  <path stroke="#D8E0D6" stroke-opacity=".25" stroke-width="4" d="M1408 431c-2 23-5 41-13 57"/>
+
+  <g stroke="#607767" stroke-linecap="round">
+    <path stroke-width="8" d="M1428 395c-5-85 20-160 89-237M1435 372c-49-69-108-108-182-122M1440 331c52-54 106-85 169-94M1432 364c-14-91-12-163 12-236"/>
+    <path stroke-width="5" d="M1454 326c-3-63 7-111 34-156M1417 344c-36-54-78-84-128-101M1451 373c42-37 84-59 132-68"/>
+  </g>
+  <g fill="#83947C">
+    <path d="M1510 193c-3-45 18-73 63-81 2 43-18 71-63 81ZM1491 226c-36-33-72-34-107 0 32 31 68 32 107 0ZM1580 260c9-42 38-61 83-55-12 41-39 60-83 55ZM1433 224c-22-43-56-56-100-38 20 40 53 53 100 38ZM1510 309c27-37 63-45 101-21-26 35-60 44-101 21ZM1438 298c-31-34-67-40-105-14 29 34 64 40 105 14Z"/>
+  </g>
+  <g fill="#A7B19B">
+    <path d="M1510 193c-3-45 18-73 63-81-11 40-31 67-63 81ZM1491 226c-36-33-72-34-107 0 40-14 75-14 107 0ZM1580 260c9-42 38-61 83-55-23 30-51 48-83 55ZM1433 224c-22-43-56-56-100-38 36-7 69 5 100 38ZM1510 309c27-37 63-45 101-21-37-8-72-1-101 21Z"/>
+  </g>
+
+  <path fill="url(#glass)" d="M1593 602c0-11 9-20 20-20h35c11 0 20 9 20 20v91c0 12-9 21-20 21h-35c-11 0-20-9-20-21v-91Z"/>
+  <path fill="#E8DCC8" d="M1604 563h53v20h-53z"/>
+  <path fill="#8A6A4D" d="M1610 549h41v14h-41z"/>
+  <path stroke="#F5E9D1" stroke-opacity=".52" stroke-width="4" d="M1607 610v63"/>
+  <path fill="#D1C5B3" d="M1519 681h230v19h-230z"/>
+  <path fill="#E8DFD1" d="M1534 663h198v18h-198z"/>
+  <path fill="#C0AD93" d="M1551 645h164v18h-164z"/>
+
+  <path stroke="#B8AA96" stroke-opacity=".35" d="M934 1000h986"/>
+</svg>
